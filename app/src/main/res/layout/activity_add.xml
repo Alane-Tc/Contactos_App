@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Fondo"
+    tools:context=".Add">
+
+
+    <ImageView
+        android:id="@+id/Imagen_add"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/logo3"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/name_contact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Nombre del contacto"
+        android:layout_marginTop="235dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Color_users"
+         />
+
+    <EditText
+        android:id="@+id/telephone_contact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Telefono del contacto"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Color_users"
+        />
+
+    <EditText
+        android:id="@+id/email_contact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Email del contacto"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Color_users"
+        />
+
+    <EditText
+        android:id="@+id/adress_contact"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Link de direccion google maps"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Color_users"
+        />
+
+    <Button
+        android:id="@+id/Btn_save"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Guardar Contacto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="530dp"
+        android:background="@color/Color_save"
+        />
+
+    <Button
+        android:id="@+id/Btn_edit"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Editar Contacto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="610dp"
+        android:background="@color/Color_edit"
+        />
+
+</RelativeLayout>

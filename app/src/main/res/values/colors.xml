@@ -5,4 +5,7 @@
     <color name="colorAccent">#03DAC5</color>
     <color name="Fondo">#f1faee</color> /*#fcbf49 AMARILLO BOLUDO*/
     <color name="Color_boton">#81b29a</color>
+    <color name="Color_users">#dee2e6</color>
+    <color name="Color_save">#2a9d8f</color>
+    <color name="Color_edit">#ef233c</color>
 </resources>

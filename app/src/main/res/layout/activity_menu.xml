@@ -13,7 +13,7 @@
         android:layout_height="200dp"
         android:background="@drawable/logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="75dp"/>
+        android:layout_marginTop="65dp"/>
 
     <ImageView
         android:id="@+id/Imagen_Menu"
@@ -21,24 +21,24 @@
         android:layout_height="200dp"
         android:background="@drawable/logo2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"/>
+        android:layout_marginTop="245dp"/>
 
     <ImageButton
-        android:id="@+id/Add_Contac"
+        android:id="@+id/Add_contact"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@drawable/logo4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="410dp"
         />
 
     <ImageButton
-        android:id="@+id/Show_Contac"
+        android:id="@+id/Show_contact"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:background="@drawable/logo5"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="520dp"
         />
 
 </RelativeLayout>
