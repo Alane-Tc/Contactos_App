@@ -35,11 +35,10 @@ class Add : AppCompatActivity() {
             register_contact.put("email_contact", email_contact.text.toString());
             db.insert("contacto", null, register_contact);
             db.close();
-
             name_contact.setText("");
             telephone_contact.setText("");
             email_contact.setText("");
-            Toast.makeText(this, "Cliente registrado correctamente", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Contacto registrado correctamente", Toast.LENGTH_SHORT).show()
         }
     }
 
