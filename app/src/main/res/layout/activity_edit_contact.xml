@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/Fondo"
     tools:context=".Add">
-
-
+    
     <ImageView
         android:id="@+id/Imagen_add"
         android:layout_width="300dp"
@@ -16,6 +15,45 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"/>
 
+    <EditText
+        android:id="@+id/nameSearch"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Nombre del contacto: "
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/Color_users"
+        />
+
+    <TextView
+        android:id="@+id/show_results2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: "
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="320dp"
+        />
+
+    <TextView
+        android:id="@+id/show_results4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginTop="390dp"
+        />
+
+    <Button
+        android:id="@+id/Btn_Seatch"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Buscar Contacto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@color/Color_Buscar"
+        />
 
 
     <Button

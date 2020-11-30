@@ -34,6 +34,7 @@
         android:layout_marginTop="310dp"
         android:layout_centerHorizontal="true"
         android:background="@color/Color_users"
+        android:inputType="phone"
         />
 
     <EditText
@@ -46,7 +47,7 @@
         android:background="@color/Color_users"
         />
 
-    <EditText
+   <!-- <EditText
         android:id="@+id/adress_contact"
         android:layout_width="300dp"
         android:layout_height="50dp"
@@ -54,7 +55,7 @@
         android:layout_marginTop="450dp"
         android:layout_centerHorizontal="true"
         android:background="@color/Color_users"
-        />
+        />-->
 
     <Button
         android:id="@+id/Btn_save"
@@ -62,18 +63,18 @@
         android:layout_height="50dp"
         android:text="Guardar Contacto"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="530dp"
+        android:layout_marginTop="510dp"
         android:background="@color/Color_save"
         />
 
-    <Button
+    <!--<Button
         android:id="@+id/Btn_edit"
         android:layout_width="200dp"
         android:layout_height="50dp"
-        android:text="Editar Contacto"
+        android:text="Buscar Contacto"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="610dp"
         android:background="@color/Color_edit"
-        />
+        />-->
 
 </RelativeLayout>
